@@ -55,14 +55,12 @@ public class App {
                 System.out.println("Загадане число: " + secretNumber);
                 System.out.println("Кількість спроб: " + attempts);
 
-                // Завершення циклу
                 break;
             }
         }
 
         System.out.println("\nКІНЕЦЬ ГРИ!");
 
-        // Закриття Scanner
         scanner.close();
     }
 }
